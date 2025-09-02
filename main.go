@@ -23,7 +23,7 @@ func main() {
 				log.Fatalf("disconnected from server")
 			}
 			msg = strings.TrimSuffix(msg, "\n")
-			fmt.Print(msg)
+			fmt.Println(msg)
 		}
 	}()
 
