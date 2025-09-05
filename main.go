@@ -13,7 +13,7 @@ func main() {
 
 	var text string
 	reader := bufio.NewReader(os.Stdin)
-	conn, _ := net.Dial("tcp", "localhost:9999")
+	conn, _ := net.Dial("tcp", "89.44.86.79:5522")
 
 	go func() {
 		msgReader := bufio.NewReader(conn)
